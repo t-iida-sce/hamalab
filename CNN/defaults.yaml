@@ -1,0 +1,17 @@
+type: 'each'
+dataset: 
+  dummy: False
+  data: 2 # ダミーデータを扱う場合
+  task: 5
+  input_random: 0
+  data_augumentation: True
+epochs: 300
+lr : 5e-4
+model_conf: 
+    input_size: [100,192]
+    model : 'MFB_one'
+    name : 'CNN4'
+    cls: 1
+    batch_size : 32
+    projection_head: 5
+    num_view: 12

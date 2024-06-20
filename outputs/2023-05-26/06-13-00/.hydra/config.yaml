@@ -1,0 +1,19 @@
+type: each
+dataset:
+  dummy: false
+  data: 2
+  task: 5
+  input_random: 0
+  data_augumentation: true
+epochs: 300
+lr: 0.0005
+model_conf:
+  input_size:
+  - 100
+  - 192
+  model: MFB_one
+  name: CNN4
+  cls: 1
+  batch_size: 32
+  projection_head: 5
+  num_view: 12
