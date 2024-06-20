@@ -3,3 +3,6 @@ sample/*
 cnn_dem/
 *.png
 *.jpg
+*.pyc
+*.pth
+*.pyth
